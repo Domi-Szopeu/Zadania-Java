@@ -11,7 +11,8 @@ public class Zadanie316 {
         max = min;
         x = r.nextInt(99);
         for (x > max){
-            max = x
+            max = x;
+            System.out.println("przyklad dzialania");
         }
 
     }
