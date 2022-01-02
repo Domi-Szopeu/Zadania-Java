@@ -19,6 +19,5 @@ public class Zadanie43 {
             }
             System.out.println("");
         }
-        System.out.println("Suma to: " + suma);
     }
 }
