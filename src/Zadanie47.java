@@ -12,15 +12,18 @@ public class Zadanie47 {
             for (y = 0; y < tab.length; y++) {
                     if (y == 0) {
                         tab[x][y] = z;
-                        suma1 = suma1 + z;
+                        suma1 = suma1 + tab[x][y];
                     } else if (y == 1) {
                         tab[x][y] = z * z;
-                        suma2 = suma2 + z;
+                        suma2 = suma2 + tab[x][y];
                     } else tab[x][y] = 0;
                     System.out.print(tab[x][y] + " ");
             }
             z++;
             System.out.println("");
+
         }
+        System.out.println("Suma liczb w pierwszej kolumnie to: " + suma1);
+        System.out.println("Suma liczb w drugiej kolumnie to: " + suma2);
     }
 }
